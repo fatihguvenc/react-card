@@ -3,6 +3,7 @@ import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
 import Card from "./components/Card";
+import Footer from "./components/Footer";
 import DATA_LIST from "./data/data.js";
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
       <div className="container">
         <div className="row">{CardComp}</div>
       </div>
+      <Footer />
     </div>
   );
 }
