@@ -12,7 +12,9 @@ export default function App() {
   return (
     <div>
       <Navbar />
-      <div className="container">{CardComp}</div>
+      <div className="container">
+        <div className="row">{CardComp}</div>
+      </div>
     </div>
   );
 }

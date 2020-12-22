@@ -72,3 +72,5 @@ const DATA_LIST = [
     price: "64 TL"
   }
 ];
+
+export default DATA_LIST;
